@@ -9,6 +9,9 @@ namespace Temp
 {
     class MySQL
     {
+        public static string resultusername;
+        public static string resultuserpass;
+
         public static MySqlConnection Connect()
         {
             //forming variables for connection string
